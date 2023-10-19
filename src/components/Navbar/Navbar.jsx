@@ -9,7 +9,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <div className="flex fixed w-full h-14 z-20 items-center justify-between p-4 lg:p-12 bg-gray-950 text-gray-300">
+      <div className="flex shadow-xl bg-slate-950 fixed w-full h-14 z-20 items-center justify-between p-4 lg:p-12  text-gray-300">
         <div className="flex flex-row items-center align-middle lg:text-2xl text-1xl text-green-400">
           <BsFire className="mt-[3px] lg:text-3xl text-xl mr-1" />
           <h2> | Armando Dev</h2>
